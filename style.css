@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+}
+nav h2{
+    padding: 20px;
+    color: gainsboro;
+}
+#img{
+    border-radius: 20px;
+}
+#inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 900px;
+    background-color: #303030;
+    color: white;
+}
+
+#central{
+    margin-top: 10%;
+    width: 50%;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 50%;
+}
+
+#foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #6b6b6b;
+}
+
+
+#contenedor-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: #e2e0e0;
+    color: #303030;
+    padding: 10px;
+}
+
+#muestra{
+    background-color: #e9e9e9;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.img-aptitudes{
+    display: flex;
+    height: 90px;
+    padding: 15px;
+}
+#aptitudes p{
+    margin-bottom:20px ;
+    margin-top: 15px;
+}
+#aptitudes{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#cursos-txt{
+    margin-bottom: 15px;
+}
+
+#contacto{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.red-social{
+    height: 60px;
+    padding: 15px;
+}
+
+#section-proyectos{
+    background-color: #303030;
+}
+
+#proyecto-txt{
+    color: #e2e0e0;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
